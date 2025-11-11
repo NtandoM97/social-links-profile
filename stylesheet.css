@@ -1,0 +1,78 @@
+body {
+font-family: inter;
+margin: auto;
+height: 100vh;
+width: 100%;
+background-color: hsl(0, 0%, 8%);
+}
+
+.card {
+margin: auto;
+margin-top: 10%;
+padding: 25px;
+background-color: hsl(0, 0%, 12%);
+text-align: center;
+font-size: 1em;
+height: auto;
+width: 400px;
+border-radius: 15px;
+}
+
+img {
+ border-radius: 50%;
+ width: 100px;
+ height: 100px;
+ margin-top: 35px;
+}
+
+H1 {
+font-weight: 700;
+color: hsl(0, 0%, 100%);
+margin-bottom: -5px;
+}
+
+.location {
+font-weight: 600;
+color: hsl(17, 99%, 56%);
+}
+
+.job {
+font-weight: 400;
+color: hsl(0, 0%, 100%);
+margin-top: 40px;
+}
+
+a {
+ display: block;
+ font-weight: 600;
+ font-size: 1em;
+ text-decoration: none;
+ color: white;
+ margin-top: 20px;
+ padding-top: 20px;
+ border-radius: 10px;
+ border-style: none;
+ background-color: hsl(0, 0%, 20%);
+ height: 40px;
+ width: 380px;
+}
+a:hover {
+ display: block;
+ font-weight: 600;
+ font-size: 1em;
+ color: hsl(0, 0%, 20%);
+ margin-top: 20px;
+ padding-top: 20px;
+ border-radius: 10px;
+ border-style: none;
+ background-color: hsl(17, 99%, 56%);
+ height: 40px;
+ width: 380px;
+ cursor: pointer;
+}
+
+.buttons {
+ margin-top: 45px;
+ margin-left: 10px;
+ margin-bottom: 35px;
+}
